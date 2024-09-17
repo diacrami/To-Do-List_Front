@@ -72,7 +72,7 @@ const TaskForm = ({setTask, taskList, setError}) => {
                           className="border-2 w-1/5 h-12 flex justify-end bg-white border-white rounded-tr-md rounded-br-md"
                       >
                           <img
-                              src="./src/assets/add_.png"
+                              src="./assets/add_.png"
                               className="h-8 w-8 mt-1 mr-2"
                               alt="add"
                           />

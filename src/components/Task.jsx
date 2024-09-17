@@ -93,13 +93,13 @@ const Task = ({task, setTask, setModal}) => {
                           task.state == 'T'
                               ?
                               <img
-                                  src="./src/assets/uncheck_.jpg"
+                                  src="./assets/uncheck_.jpg"
                                   className="h-full w-30"
                                   alt="add"
                               />
                               :
                               <img
-                                  src="./src/assets/check_.jpg"
+                                  src="./assets/check_.jpg"
                                   className="h-full w-30"
                                   alt="add"
                               />
@@ -113,7 +113,7 @@ const Task = ({task, setTask, setModal}) => {
                       onClick={() => editModal()}
                   >
                       <img
-                          src="./src/assets/edit_.jpg"
+                          src="./assets/edit_.jpg"
                           className="h-full w-30"
                           alt="edit"
                       />
@@ -125,7 +125,7 @@ const Task = ({task, setTask, setModal}) => {
                       onClick={() => taskDelete()}
                   >
                       <img
-                          src="./src/assets/delete_.png"
+                          src="./assets/delete_.png"
                           className="h-full w-30"
                           alt="delete"
                       />

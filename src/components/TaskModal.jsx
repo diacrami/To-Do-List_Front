@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { useState, useReducer, useEffect } from 'react';
-import CerrarBtn from '../assets/cerrar.svg';
+import CerrarBtn from '../../public/assets/cerrar.svg';
 import { taskAPI } from '../api/tasksAPI';
 import Swal from 'sweetalert2';
 import ErrorMessage from './ErrorMessage';
