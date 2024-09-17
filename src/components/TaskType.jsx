@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import { taskAPI } from "../api/tasksAPI";
 
-const TaskType = ({taskList, setTaskList}) => {
+const TaskType = ({setTaskList}) => {
 
     const selectedOption = async(option) => {
         const resp = await taskAPI.get(`/filter/${option}`);

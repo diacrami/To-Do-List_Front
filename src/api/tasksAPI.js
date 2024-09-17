@@ -2,6 +2,6 @@ import axios from "axios";
 
 export const taskAPI= axios.create(
     {
-        baseURL:'http://127.0.0.1:8000/task'
+        baseURL:import.meta.env.VITE_REACT_APP_BACKEND_URL
     }
 )
